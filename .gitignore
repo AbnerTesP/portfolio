@@ -1,23 +1,29 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+node_modules/
+
+# builds
+dist/
+build/
+
+# environment (secrets) — keep .env.example tracked
+.env
+.env.*
+!.env.example
 
 # testing
-/coverage
+coverage/
 
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+# logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# local claude settings
+.claude/settings.local.json
