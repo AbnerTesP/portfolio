@@ -1,6 +1,6 @@
 ﻿// frontend/src/lib/constants.ts
 export const PROFILE = {
-  name: "Abner GonÃ§alves",
+  name: "Abner Gonçalves",
   role: "Full-Stack Developer",
   email: "abnergt2003@gmail.com",
   phone: "+351 932606960",
@@ -13,25 +13,31 @@ export const PROJECTS = [
     title: "SaaS Analytics Dashboard",
     description: "Real-time metrics platform with React, WebSockets and PostgreSQL.",
     tags: ["React", "Node.js", "PostgreSQL"],
-    href: "https://github.com/abnergoncalves",
+    href: "https://github.com/AbnerTesP",
   },
   {
     title: "E-commerce API",
     description: "Secure REST API with payments, auth and rate limiting.",
     tags: ["Express", "Stripe", "Redis"],
-    href: "https://github.com/abnergoncalves",
+    href: "https://github.com/AbnerTesP",
   },
   {
     title: "Design System",
     description: "Accessible component library with tokens and dark mode.",
     tags: ["TypeScript", "Tailwind", "Storybook"],
-    href: "https://github.com/abnergoncalves",
+    href: "https://github.com/AbnerTesP",
   },
   {
     title: "DevOps Automation",
     description: "CI/CD pipelines and infrastructure as code for web apps.",
     tags: ["Docker", "GitHub Actions", "AWS"],
-    href: "https://github.com/abnergoncalves",
+    href: "https://github.com/AbnerTesP",
+  },
+  {
+    title: "Machine Repair Management System",
+    description: "Internal CMMS for a machine repair company — service orders, maintenance history and parts tracking.",
+    tags: ["JavaScript", "Node.js", "MySQL"],
+    href: "https://github.com/AbnerTesP",
   },
 ] as const;
 
